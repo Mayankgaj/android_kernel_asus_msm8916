@@ -350,6 +350,7 @@ gen_zip() {
 
 clone
 exports
+mkdir out
 build_kernel
 
 if [ $LOG_DEBUG = "1" ]
